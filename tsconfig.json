@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "target": "ES5",
+        "sourceMap": true
+    },
+    "files": [
+        "demo-start/app.ts",
+        "demo-data-list/components/app.data.list.ts",
+        "demo-data-list/app.ts",     
+        "typings/tsd.d.ts"
+    ]
+}
+
+

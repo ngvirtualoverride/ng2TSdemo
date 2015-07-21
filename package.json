@@ -1,0 +1,24 @@
+{
+  "name": "Angular20TypeScript",
+  "version": "1.0.0",
+  "description": "AngularJS 2.0 with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://aelbore@bitbucket.org/aelbore/ng2typescript.git"
+  },
+  "keywords": [
+    "angular",
+    "2.0",
+    "typescript"
+  ],
+  "author": "Arjay Elbore",
+  "license": "ISC",
+  "devDependencies": {
+    "rx": "^2.5.3",
+    "systemjs": "0.16.11"
+  }
+}

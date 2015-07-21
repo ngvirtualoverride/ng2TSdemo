@@ -1,0 +1,16 @@
+{
+  "name": "ng2TypeScript",
+  "version": "0.0.0",
+  "description": "AngularJS 2.0 with TypeScript",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "traceur-runtime": "~0.0.90"
+  }
+}
