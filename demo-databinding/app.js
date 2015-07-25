@@ -10,23 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var app_data_list_1 = require('components/app.data.list');
-var http_1 = require('angular2/http');
-var App = (function () {
-    function App() {
-        this.title = "Data List example";
+var DataBinding = (function () {
+    function DataBinding() {
+        this.name = 'Jose';
     }
-    App = __decorate([
+    DataBinding = __decorate([
         angular2_1.Component({
-            selector: 'demo-app'
+            selector: 'data-bind'
         }),
         angular2_1.View({
-            template: "\n\t\t<h1>{{ title }}</h1>\n\t\t<input ng-model=\"value\" />{{ value }}\n\t\t<data-list></data-list>\n\t",
-            directives: [app_data_list_1.DataList]
+            template: "\n\t\t<input id=\"name\" type=\"text\" \n\t\t\t[value]=\"name\" \n\t\t\t(keyup)=\"name = $event.target.value\" />\n\t\t{{ name }}\n\t"
         }), 
         __metadata('design:paramtypes', [])
-    ], App);
-    return App;
+    ], DataBinding);
+    return DataBinding;
 })();
-angular2_1.bootstrap(App, [http_1.httpInjectables]);
+angular2_1.bootstrap(DataBinding);
 //# sourceMappingURL=app.js.map

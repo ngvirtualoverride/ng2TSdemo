@@ -7,6 +7,7 @@
         "experimentalDecorators": true
     },
     "files": [
+        "demo-databinding/app.ts",
         "demo-start/app.ts",
         "demo-data-list/components/app.data.list.ts",
         "demo-data-list/app.ts",     

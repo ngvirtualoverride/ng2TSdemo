@@ -8,12 +8,14 @@ import { httpInjectables } from 'angular2/http'
 @View({
 	template: `
 		<h1>{{ title }}</h1>
+		<input ng-model="value" />{{ value }}
 		<data-list></data-list>
 	`,
 	directives: [DataList]
 })
 class App {
 	title: string;
+	value: number;
 
 	constructor(){
 		this.title = `Data List example`;
