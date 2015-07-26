@@ -1,15 +1,14 @@
-import { Component, View, bootstrap } from 'angular2/angular2'
+import { Component, View, bootstrap, formDirectives } from 'angular2/angular2'
 
 @Component({
 	selector: 'data-bind'
 })
 @View({
 	template:`
-		<input id="name" type="text" 
-			[value]="name" 
-			(keyup)="name = $event.target.value" />
+		<input id="name" type="text" [(ng-model)]="name" />
 		{{ name }}
-	` 
+	` ,
+	directives: [formDirectives]
 })
 class DataBinding {	
 	name: string;

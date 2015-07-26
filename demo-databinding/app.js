@@ -19,7 +19,8 @@ var DataBinding = (function () {
             selector: 'data-bind'
         }),
         angular2_1.View({
-            template: "\n\t\t<input id=\"name\" type=\"text\" \n\t\t\t[value]=\"name\" \n\t\t\t(keyup)=\"name = $event.target.value\" />\n\t\t{{ name }}\n\t"
+            template: "\n\t\t<input id=\"name\" type=\"text\" [(ng-model)]=\"name\" />\n\t\t{{ name }}\n\t",
+            directives: [angular2_1.formDirectives]
         }), 
         __metadata('design:paramtypes', [])
     ], DataBinding);
