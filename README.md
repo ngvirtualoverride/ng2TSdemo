@@ -10,6 +10,7 @@ https://jspm.io/system@0.16.js
 
 ES6 module Loader
 https://github.com/ModuleLoader/es6-module-loader/blob/master/dist/es6-module-loader.js
+
 #
 sh install.sh 
 #
@@ -21,3 +22,7 @@ in the brower
 1. demo-start - localhost:3474/demo-start
 #
 2. demo-data-list - localhost:3474/demo-data-list
+
+#
+when you try to modify .ts file/code try to execute tsc in the commandline
+#
